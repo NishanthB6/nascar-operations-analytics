@@ -1,7 +1,6 @@
 
 -- 01_pit_clean.sql
--- Normalizes your staging CSV data into a clean view for downstream analytics.
--- Adjust table/column names if your staging table uses different headers.
+-- Normalizes staging CSV data into a clean view for downstream analytics.
 CREATE OR REPLACE VIEW pit_clean AS
 SELECT
   source_file,
